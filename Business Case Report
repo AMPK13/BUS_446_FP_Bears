@@ -1,0 +1,60 @@
+I. Introduction
+Regional Price Parity (RPP) is a key economic measure used to compare the cost of goods and services across U.S. states. With a baseline national average of 100, RPP enables comparisons of purchasing power and affordability between regions. Scores above 100 indicate a higher cost of living, while scores below 100 indicate a lower cost. Understanding RPP is vital for evaluating economic well-being, setting wage standards, designing housing policies, and supporting individual relocation or business investment decisions.
+This project investigates how RPP scores vary across states and how they relate to income levels and affordability. Through data analysis and visualizations, we aim to identify affordability gaps and explore policy and economic implications.
+
+II. Objectives
+The core objectives of this project are to:
+Analyze the variation in RPP scores across U.S. states.
+Examine the relationship between RPP and median household income.
+Identify affordability challenges where high RPP is not matched by proportionally higher income.
+Assess how housing costs influence overall RPP.
+Provide recommendations for policymakers and individuals based on findings.
+
+III. Methodology
+Dataset Used:
+Regional Price Parity by U.S. State (2022–2023) from the Bureau of Economic Analysis (BEA). 
+https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-and-real-personal-income-state-and 
+
+Supplementary data included real personal income and median household income from the United States Census Bureau. h
+ttps://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html 
+Key variables: State, RPP Score, Housing RPP, Goods RPP, Services RPP, Real Personal Consumption, Median Household Income​.
+
+Steps Taken:
+Data Cleaning: Removed inconsistencies, standardized variable names, and filtered to relevant economic indicators.
+Correlation Analysis: Assessed relationships between RPP and income measures using scatter plots and correlation coefficients.
+Regression Modeling: Evaluated the impact of RPP on median income.
+Visualization: Created heatmaps, scatter plots, and bar charts to present geographic trends and affordability rankings (to be added later).
+
+IV. Key Findings
+1. Geographic Distribution of RPP
+States like California, New Jersey, and Washington D.C. had the highest RPP scores, reflecting significantly higher living costs.
+States such as Mississippi, Arkansas, and West Virginia had the lowest RPP values, indicating more affordable cost-of-living environments​.
+
+2. RPP and Income Relationship
+While some high-RPP states showed higher real personal income, others did not, suggesting that wages often fail to fully offset cost-of-living differences.
+Certain states like Florida and Oregon exhibited a mismatch—relatively high RPP but only moderate income levels—highlighting affordability concerns.
+
+3. Housing as a Driver of RPP
+Housing RPP was strongly correlated with overall RPP scores.
+States with housing RPP significantly above 100 saw substantial inflation in their total cost-of-living index, regardless of other goods and services.
+
+4. Purchasing Power Disparities
+Adjusting for RPP, residents of high-income but high-cost states had less purchasing power than residents in moderate-income, low-RPP states.
+For example, a dollar in Mississippi stretches further than in California, despite higher wages in the latter.
+
+V. Insights and Recommendations
+Insights:
+RPP reveals deep geographic inequities in purchasing power.
+Housing costs play a disproportionate role in driving unaffordability.
+Real personal income alone is insufficient to assess economic well-being without adjusting for cost of living.
+
+Recommendations:
+Policy Makers: Consider RPP-adjusted wages and benefits when forming minimum wage laws or housing subsidies.
+Businesses: Use RPP analysis to determine competitive compensation strategies for multistate operations.
+Individuals: Leverage RPP data when making relocation decisions to evaluate true affordability, not just salary figures.
+
+
+VI. Conclusion
+This analysis demonstrates that Regional Price Parity is a critical metric for understanding affordability across the United States. While higher-income states may seem advantageous, 
+many such states present significant economic challenges when adjusted for cost-of-living differences. 
+By factoring in RPP and housing costs, stakeholders can make more informed decisions about wages, living locations, and economic policy development​​.
